@@ -1,0 +1,110 @@
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* user-select: none; */
+}
+
+
+
+input,textarea,button{ border: none; outline: none; padding: 5px; border-radius: 10px; text-indent: 0px;}
+
+.my1{margin-top: 10px; margin-bottom: 10px;}
+.mtop1{margin-top: 10px;}
+.displayBlock{display: block;}
+.border10{border-radius: 10px;}
+
+
+
+
+
+.quizset{
+    padding: 1rem;   
+}
+
+.quizset__matainfo{
+    background-color: antiquewhite;
+    padding: .5rem;
+}
+.quizset_id{
+    font-weight: 900;
+}
+/* .quizset__title{
+  
+} */
+.htxt{
+    color:rgb(255, 1, 1);
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.add_new_quiz_btn{
+    background-color: #FF2525;
+    color:whitesmoke;
+
+}
+.save_quiz_set{
+    background-color: #22E4AB;
+    color:whitesmoke;
+}
+
+.add_ans_btn{
+    padding: 15px;
+   
+}
+.del_ans,.check_ans{
+    cursor: pointer;
+    
+    border-radius: 10px;
+    background-color: #f13e3e;
+    color:whitesmoke;
+    padding: 7px;
+}
+
+.del_ans:hover,.check_ans:hover,.del_quiz:hover{
+  box-shadow: 1px 1px 10px rgba(0, 0, 139, 0.493);
+  /* background-color: transparent; */
+  padding: 9px;
+   
+}
+
+.del_quiz{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #f13e3e;
+    color:whitesmoke;
+    padding: 7px;
+}
+.ans_point{
+    max-width:min-content;
+}
+
+.btn{
+        padding: 10px;
+        font-size: 17px;
+        font-weight: 700;
+        transition: all .2s;
+        cursor: pointer;
+   
+}
+.btn:hover{
+    padding: 11px;
+}
+
+
+.quizitem{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: thistle;
+    position: relative;
+}
+.quizitem .htxt{
+    color:rgb(0, 0, 0); 
+    text-transform: uppercase;
+}

@@ -1,0 +1,30 @@
+
+******question database:
+quiz_set_id   quiz_id    quiz_qs 
+
+******all ans database:
+quiz_set_id   related_quiz_id    ans_id   ans
+
+****** quizset meta info database:
+quiz_set_id    quizset_title   author   time(optional)   totalnumber 
+
+
+
+
+
+
+                ******right ans database:
+                quiz_set_id   related_quiz_id    ans_id   ans
+
+                ******result database:
+                quiz_set_id   user_id    total_number  exam_date
+
+
+******************************************
+to check the users ans and publish result:
+in checking page -> 1) make a array with coreect ans id as key and ans point as value; [correct_ans_id=> ans_point]
+                    2) make array with user's selected ans id
+
+                    if user's ans id found in  [correct_ans_id=> ans_point] array key 
+                    take the ans_point and sum it               
+
